@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>IT用語集</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>IT用語集</h1>
+      <div class="search-wrap">
+        <input type="search" id="search" placeholder="用語・説明文を検索..." autocomplete="off" spellcheck="false">
+      </div>
+    </header>
+
+    <section class="filter-section">
+      <div id="tag-list" class="tag-list"></div>
+      <button id="clear-tags" class="clear-btn" style="display:none">タグをクリア</button>
+    </section>
+
+    <main>
+      <p id="count" class="count"></p>
+      <div id="terms-grid" class="terms-grid"></div>
+      <p id="no-results" class="no-results" style="display:none">該当する用語が見つかりませんでした</p>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

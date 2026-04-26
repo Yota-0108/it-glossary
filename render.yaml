@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: it-glossary
+    env: static
+    staticPublishPath: public
+    pullRequestPreviewsEnabled: false
